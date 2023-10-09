@@ -146,7 +146,7 @@ export default function Footer() {
             <Logo />
           </Flex>
           <Text pt={6} fontSize={"sm"} textAlign={"center"}>
-            © 2023 DeshBazaar All rights reserved
+            © 2023 PulsePlay Digital Private Limited | All Rights Reserved
           </Text>
         </Box>
       </Box>
