@@ -14,8 +14,8 @@ const colors = {
 };
 
 const fonts = {
-  heading: "Montserrat, sans-serif",
-  body: "Montserrat, sans-serif",
+  heading: "Fira Code, monospace",
+  body: "Fira Code, monospace",
 };
 
 export const theme = extendTheme({ colors, fonts });
