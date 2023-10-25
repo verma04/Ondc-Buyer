@@ -116,7 +116,7 @@ export default function Clients() {
             <TestimonialContent>
               <TestimonialHeading>Efficient Collaborating</TestimonialHeading>
               <TestimonialText>
-                DeshBazaar's collaboration tools streamlined our processes like
+                DeshBazaar`s collaboration tools streamlined our processes like
                 never before. A game-changer for our team!
               </TestimonialText>
             </TestimonialContent>
@@ -130,7 +130,7 @@ export default function Clients() {
             <TestimonialContent>
               <TestimonialHeading>Intuitive Design</TestimonialHeading>
               <TestimonialText>
-                The platform's design is so intuitive; it made setting up and
+                The platform`s design is so intuitive; it made setting up and
                 managing our store a breeze. Truly user-friendly!
               </TestimonialText>
             </TestimonialContent>
