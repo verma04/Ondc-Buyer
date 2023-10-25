@@ -121,11 +121,9 @@ export default function Clients() {
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
-              src={
-                "https://pulseplaydigital.sgp1.digitaloceanspaces.com/20231025-3lr8d-t1-jpg"
-              }
-              name={"Rahul Mehta"}
-              title={"CEO of Mehta Enterprises"}
+              src={`https://pulseplaydigital.sgp1.digitaloceanspaces.com/20231025-3lr8d-t1-jpg`}
+              name={`Rahul Mehta`}
+              title={`CEO of Mehta Enterprises`}
             />
           </Testimonial>
           <Testimonial>
@@ -137,11 +135,9 @@ export default function Clients() {
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
-              src={
-                "https://pulseplaydigital.sgp1.digitaloceanspaces.com/20231025-rkrqi-photo-1586297135537-94bc9ba060aa"
-              }
-              name={"Ananya Roy"}
-              title={"Founder of Roy Crafts & Co"}
+              src={`https://pulseplaydigital.sgp1.digitaloceanspaces.com/20231025-rkrqi-photo-1586297135537-94bc9ba060aa`}
+              name={`Ananya Roy`}
+              title={`Founder of Roy Crafts & Co`}
             />
           </Testimonial>
           <Testimonial>
@@ -153,11 +149,9 @@ export default function Clients() {
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
-              src={
-                "https://pulseplaydigital.sgp1.digitaloceanspaces.com/20231025-0db58-photo-1586297135537-94bc9ba060aa--1-"
-              }
-              name={"Vikram Singh"}
-              title={"Director of Singh Innovations"}
+              src={`https://pulseplaydigital.sgp1.digitaloceanspaces.com/20231025-0db58-photo-1586297135537-94bc9ba060aa--1-`}
+              name={`Vikram Singh`}
+              title={`Director of Singh Innovations`}
             />
           </Testimonial>
         </Stack>
