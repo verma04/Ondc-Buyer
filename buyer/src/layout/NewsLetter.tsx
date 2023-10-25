@@ -22,14 +22,14 @@ export default function NewsLetter() {
   const [error, setError] = useState(false);
 
   return (
-    <Flex height={"20rem"} align={"center"} justify={"center"} bg={"#97978D"}>
+    <Flex height={"20rem"} align={"center"} justify={"center"}>
       <Container maxW={"lg"} rounded={"lg"} p={6}>
         <Heading
           as={"h2"}
           fontSize={{ base: "xl", sm: "2xl" }}
           textAlign={"center"}
           mb={5}
-          color={"white"}
+          color="#2462DD"
         >
           Subscribe to our Newsletter
         </Heading>
@@ -56,14 +56,11 @@ export default function NewsLetter() {
         >
           <FormControl>
             <Input
-              bg={"#97978D"}
               border={" 1px solid white"}
               variant={"solid"}
-              _placeholder={{
-                color: "white",
-              }}
               id={"email"}
               type={"email"}
+              background=" #EFEFEF"
               required
               placeholder={"Your Email"}
               aria-label={"Your Email"}
@@ -76,7 +73,7 @@ export default function NewsLetter() {
           </FormControl>
           <FormControl w={{ base: "100%", md: "40%" }}>
             <Button
-              bg={"#48464a"}
+              bg={"#FF9C24"}
               isLoading={state === "submitting"}
               w="100%"
               type={state === "success" ? "button" : "submit"}
@@ -86,7 +83,7 @@ export default function NewsLetter() {
             </Button>
           </FormControl>
         </Stack>
-        <Text mt={2} textAlign={"center"} color={"white"}>
+        <Text mt={2} textAlign={"center"} color="#2462DD">
           {error
             ? "Oh no an error occured! 😢 Please try again later."
             : "You won't receive any spam! ✌️"}

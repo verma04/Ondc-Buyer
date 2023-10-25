@@ -29,7 +29,7 @@ export default function HeroSection() {
             lineHeight={"110%"}
           >
             Your Global Commerce Partner{" "}
-            <Text as={"span"} color={"#48464a"}>
+            <Text as={"span"} color={"#2462DD;"}>
               with ONDC
             </Text>
           </Heading>
@@ -46,35 +46,16 @@ export default function HeroSection() {
           >
             <Button
               colorScheme={"green"}
-              bg={"#48464a"}
+              bg={"#0B2884"}
               rounded={"full"}
               px={6}
               _hover={{
-                bg: "#97978D",
+                bg: "#0B2884",
               }}
             >
               Get Started
             </Button>
             <Button variant={"link"} colorScheme={"blue"} size={"sm"}></Button>
-            <Box>
-              <Icon
-                as={Arrow}
-                color={useColorModeValue("gray.800", "gray.300")}
-                w={71}
-                position={"absolute"}
-                right={-71}
-                top={"10px"}
-              />
-              <Text
-                fontSize={"lg"}
-                position={"absolute"}
-                right={"-125px"}
-                top={"-15px"}
-                transform={"rotate(10deg)"}
-              >
-                Starting at ₹150/mo
-              </Text>
-            </Box>
           </Stack>
         </Stack>
       </Container>

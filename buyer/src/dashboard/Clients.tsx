@@ -116,48 +116,48 @@ export default function Clients() {
             <TestimonialContent>
               <TestimonialHeading>Efficient Collaborating</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
-                neque sed imperdiet nibh lectus feugiat nunc sem.
+                DeshBazaar's collaboration tools streamlined our processes like
+                never before. A game-changer for our team!
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
               src={
-                "https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+                "https://pulseplaydigital.sgp1.digitaloceanspaces.com/20231025-3lr8d-t1-jpg"
               }
-              name={"Jane Cooper"}
-              title={"CEO at ABC Corporation"}
+              name={"Rahul Mehta"}
+              title={"CEO of Mehta Enterprises"}
             />
           </Testimonial>
           <Testimonial>
             <TestimonialContent>
               <TestimonialHeading>Intuitive Design</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
-                neque sed imperdiet nibh lectus feugiat nunc sem.
+                The platform's design is so intuitive; it made setting up and
+                managing our store a breeze. Truly user-friendly!
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
               src={
-                "https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+                "https://pulseplaydigital.sgp1.digitaloceanspaces.com/20231025-rkrqi-photo-1586297135537-94bc9ba060aa"
               }
-              name={"Jane Cooper"}
-              title={"CEO at ABC Corporation"}
+              name={"Ananya Roy"}
+              title={"Founder of Roy Crafts & Co"}
             />
           </Testimonial>
           <Testimonial>
             <TestimonialContent>
               <TestimonialHeading>Mindblowing Service</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
-                neque sed imperdiet nibh lectus feugiat nunc sem.
+                Every query was addressed promptly, and the support team went
+                above and beyond. Absolutely stellar service!
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
               src={
-                "https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+                "https://pulseplaydigital.sgp1.digitaloceanspaces.com/20231025-0db58-photo-1586297135537-94bc9ba060aa--1-"
               }
-              name={"Jane Cooper"}
-              title={"CEO at ABC Corporation"}
+              name={"Vikram Singh"}
+              title={"Director of Singh Innovations"}
             />
           </Testimonial>
         </Stack>

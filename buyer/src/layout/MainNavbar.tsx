@@ -61,7 +61,7 @@ export default function MainNavbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <Box bg={useColorModeValue("gray.100", "gray.900")}>
+    <Box bg={"#2462DD"}>
       <Container as={Stack} maxW={"6xl"}>
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <IconButton
@@ -77,7 +77,7 @@ export default function MainNavbar() {
                 alt="logo"
                 width={200}
                 height={200}
-                src="https://pulseplaydigital.sgp1.cdn.digitaloceanspaces.com/DeshBazaarLogo.png"
+                src="https://pulseplaydigital.sgp1.digitaloceanspaces.com/20231025-dyte6-deshbazaar-logo-1--2-"
               />
             </Link>
             <HStack
@@ -91,7 +91,7 @@ export default function MainNavbar() {
               <Button>Sign in</Button>
             </Link>
             <Link href="https://dashboard.deshbazaar.com/" target="_blank">
-              <Button color="white" bg={"#48464a"}>
+              <Button color="white" bg={"#FF9C24"}>
                 Get Started
               </Button>
             </Link>

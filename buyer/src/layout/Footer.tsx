@@ -19,7 +19,7 @@ const Logo = (props: any) => {
       alt="logo"
       width={200}
       height={200}
-      src="https://pulseplaydigital.sgp1.cdn.digitaloceanspaces.com/DeshBazaarLogo.png"
+      src="https://pulseplaydigital.sgp1.digitaloceanspaces.com/20231025-dyte6-deshbazaar-logo-1--2-"
     />
   );
 };
@@ -34,20 +34,17 @@ const ListHeader = ({ children }: { children: ReactNode }) => {
 
 export default function Footer() {
   return (
-    <Box bg={useColorModeValue("gray.100", "gray.900")}>
-      <Box
-        bg={useColorModeValue("gray.50", "gray.900")}
-        color={useColorModeValue("gray.700", "gray.200")}
-      >
+    <Box bg={"#222"}>
+      <Box bg={"#222"} color={"#222"}>
         <Container as={Stack} maxW={"6xl"} py={10}>
           <SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={8}>
             <Stack align={"flex-start"}>
               <ListHeader>Product</ListHeader>
-              <Box as="a" href={"#"}>
+              <Box as="a" href={"#"} color="white">
                 Overview
               </Box>
               <Stack direction={"row"} align={"center"} spacing={2}>
-                <Box as="a" href={"#"}>
+                <Box as="a" href={"#"} color="white">
                   Features
                 </Box>
                 <Tag
@@ -59,67 +56,67 @@ export default function Footer() {
                   New
                 </Tag>
               </Stack>
-              <Box as="a" href={"#"}>
+              <Box as="a" href={"#"} color="white">
                 Tutorials
               </Box>
-              <Box as="a" href={"#"}>
+              <Box as="a" href={"#"} color="white">
                 Pricing
               </Box>
-              <Box as="a" href={"#"}>
+              <Box as="a" href={"#"} color="white">
                 Releases
               </Box>
             </Stack>
             <Stack align={"flex-start"}>
               <ListHeader>Company</ListHeader>
-              <Box as="a" href={"#"}>
+              <Box as="a" href={"#"} color="white">
                 About Us
               </Box>
-              <Box as="a" href={"#"}>
+              <Box as="a" href={"#"} color="white">
                 Press
               </Box>
-              <Box as="a" href={"#"}>
+              <Box as="a" href={"#"} color="white">
                 Careers
               </Box>
-              <Box as="a" href={"#"}>
+              <Box as="a" href={"#"} color="white">
                 Contact Us
               </Box>
-              <Box as="a" href={"#"}>
+              <Box as="a" href={"#"} color="white">
                 Partners
               </Box>
             </Stack>
             <Stack align={"flex-start"}>
               <ListHeader>Legal</ListHeader>
-              <Box as="a" href={"#"}>
+              <Box as="a" href={"#"} color="white">
                 Cookies Policy
               </Box>
-              <Box as="a" href={"#"}>
+              <Box as="a" href={"#"} color="white">
                 Privacy Policy
               </Box>
-              <Box as="a" href={"#"}>
+              <Box as="a" href={"#"} color="white">
                 Terms of Service
               </Box>
-              <Box as="a" href={"#"}>
+              <Box as="a" href={"#"} color="white">
                 Law Enforcement
               </Box>
-              <Box as="a" href={"#"}>
+              <Box as="a" href={"#"} color="white">
                 Status
               </Box>
             </Stack>
             <Stack align={"flex-start"}>
               <ListHeader>Follow Us</ListHeader>
-              <Box as="a" href={"#"}>
+              <Box as="a" href={"#"} color="white">
                 Facebook
               </Box>
-              <Box as="a" href={"#"}>
+              <Box as="a" href={"#"} color="white">
                 Twitter
               </Box>
-              <Box as="a" href={"#"}>
+              <Box as="a" href={"#"} color="white">
                 Dribbble
               </Box>
-              <Box as="a" href={"#"}>
+              <Box as="a" href={"#"} color="white">
                 Instagram
               </Box>
-              <Box as="a" href={"#"}>
+              <Box as="a" href={"#"} color="white">
                 LinkedIn
               </Box>
             </Stack>
@@ -145,7 +142,7 @@ export default function Footer() {
           >
             <Logo />
           </Flex>
-          <Text pt={6} fontSize={"sm"} textAlign={"center"}>
+          <Text pt={6} color="white" fontSize={"sm"} textAlign={"center"}>
             © 2023 PulsePlay Digital Private Limited | All Rights Reserved
           </Text>
         </Box>
