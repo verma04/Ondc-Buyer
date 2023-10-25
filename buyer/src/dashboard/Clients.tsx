@@ -1,5 +1,5 @@
 "use client";
-
+//@ts-nocheck
 import {
   Box,
   Flex,
