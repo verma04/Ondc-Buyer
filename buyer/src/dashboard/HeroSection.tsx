@@ -30,7 +30,7 @@ export default function HeroSection() {
           >
             Your Global Commerce Partner{" "}
             <Text as={"span"} color={"#2462DD;"}>
-              with ONDC
+              with Endless Possibilities
             </Text>
           </Heading>
           <Text color={"gray.500"}>
