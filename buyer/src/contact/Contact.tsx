@@ -122,7 +122,10 @@ function Contact() {
                             <MdLocationOn color="#1970F1" size="20px" />
                           }
                         >
-                          Dharamshala, India
+                          <p style={{ textAlign: "left" }}>
+                            Sushma Cottage, <br /> Ram Nagar Dharamshala 176215
+                            <br /> Himachal Pradesh, INDIA
+                          </p>
                         </Button>
                       </VStack>
                     </Box>

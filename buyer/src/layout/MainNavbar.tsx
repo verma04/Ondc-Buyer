@@ -87,7 +87,7 @@ export default function MainNavbar() {
             ></HStack>
           </HStack>
           <Flex gap={"2rem"} alignItems={"center"}>
-            <Link href="/contact-us" target="_blank">
+            <Link href="/contact-us">
               <Button color="white" bg={"#FF9C24"}>
                 Get Demo
               </Button>

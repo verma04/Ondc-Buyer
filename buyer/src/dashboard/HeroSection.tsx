@@ -12,6 +12,7 @@ import {
   useColorModeValue,
   createIcon,
 } from "@chakra-ui/react";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -53,7 +54,7 @@ export default function HeroSection() {
                 bg: "#0B2884",
               }}
             >
-              <a href="/contact-us"> Get Started</a>
+              <Link href="/contact-us"> Get Started</Link>
             </Button>
             <Button variant={"link"} colorScheme={"blue"} size={"sm"}></Button>
           </Stack>
