@@ -73,8 +73,8 @@ export default function Navbar() {
             <Link href={"/"}>
               <Image
                 alt="logo"
-                width={200}
-                height={200}
+                width={180}
+                height={180}
                 src="https://pulseplaydigital.sgp1.cdn.digitaloceanspaces.com/DeshBazaarLogo.png"
               />
             </Link>

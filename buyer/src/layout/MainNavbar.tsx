@@ -75,8 +75,8 @@ export default function MainNavbar() {
             <Link href={"/"}>
               <Image
                 alt="logo"
-                width={200}
-                height={200}
+                width={180}
+                height={180}
                 src="https://pulseplaydigital.sgp1.digitaloceanspaces.com/20231025-dyte6-deshbazaar-logo-1--2-"
               />
             </Link>
@@ -87,12 +87,9 @@ export default function MainNavbar() {
             ></HStack>
           </HStack>
           <Flex gap={"2rem"} alignItems={"center"}>
-            <Link href="https://dashboard.deshbazaar.com/" target="_blank">
-              <Button>Sign in</Button>
-            </Link>
-            <Link href="https://dashboard.deshbazaar.com/" target="_blank">
+            <Link href="/contact-us" target="_blank">
               <Button color="white" bg={"#FF9C24"}>
-                Get Started
+                Get Demo
               </Button>
             </Link>
           </Flex>

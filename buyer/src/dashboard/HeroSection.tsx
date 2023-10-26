@@ -53,7 +53,7 @@ export default function HeroSection() {
                 bg: "#0B2884",
               }}
             >
-              Get Started
+              <a href="/contact-us"> Get Started</a>
             </Button>
             <Button variant={"link"} colorScheme={"blue"} size={"sm"}></Button>
           </Stack>
