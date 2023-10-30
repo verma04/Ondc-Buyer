@@ -111,7 +111,7 @@ export default function Section3() {
             href={"#"}
           />
           <Card
-            heading={"Android App/Ios App"}
+            heading={"Android App/IOS App"}
             icon={<Icon color="green" as={IoLogoAndroid} w={10} h={10} />}
             description={
               "The world is mobile. It's time your store is too. Get more loyal customers with your mobile app."
