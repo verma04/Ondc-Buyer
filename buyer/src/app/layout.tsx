@@ -4,8 +4,9 @@ import "./globals.css";
 import { Metadata } from "next";
 import Script from "next/script";
 export const metadata: Metadata = {
-  title: "DeshBazaar - Badhao Apana  Vyapaar",
-  description: "...",
+  title: "ONDC Seller Onboarding Revolution | Launch Online Store",
+  description:
+    "Experience the future of commerce with our user-friendly platform. Launch an online store on ONDC, attracting & converting your customers worldwide",
 };
 
 export default function RootLayout({
